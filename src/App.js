@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 
-const App = () => {
+const App = ({ example }) => {
   return (
     <div className="App">
-      <p>Hello world!</p>
+      oh
+      {
+        example &&
+          <p>Hello world!</p>
+      }
     </div>
   );
 }
